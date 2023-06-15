@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Joey's Coffee :: Contact Us</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="coffee.css">
+    </head>
+
+<body>
+    <header>
+        <h1>
+            Joey's Coffee House
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> &nbsp;</li>
+            <li><a href="products.html">Products</a> &nbsp;</li>
+            <li><a href="contact.html">Contact Us</a> &nbsp;</li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contact Us!</h2>
+        <p>Required fields are marked with an asterisk</p>
+        <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+            <label for="firstName">*First Name:</label>
+            <input type="text" name="firstName" id="firstName" required="required">
+
+            <label for="lastName">*Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required="required">
+
+            <label for="email">*Email:</label>
+            <input type="email" name="email" id="email" required="required">
+
+            <label for="message">*Message:</label>
+            <textarea name="message" id="message" cols="30" rows="8" required="required"></textarea>
+
+            <input type="submit" name="submit" id="submit">
+        </form>
+        <footer>
+            <small><i>
+                Copyright&copy; 2023 Joey's Coffee<br>
+                <a href="mailto:JoeySchulz977@gmail.com">
+                    JoeySchulz977@gmail.com
+                </a>
+            </i></small>
+        </footer>
+    </main>
+</body>
+</html>
